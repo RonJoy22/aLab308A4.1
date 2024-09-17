@@ -1,0 +1,16 @@
+{
+    "name": "alab308a4.1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "api.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+      },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "nodemon": "^3.1.4"
+    }
+  }

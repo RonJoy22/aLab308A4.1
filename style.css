@@ -1,0 +1,46 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-fill-color: green;
+    -webkit-text-stroke: black;
+}
+
+.app{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    text-align: center;
+    padding: 20px 0;
+    background-color: bisque;
+}
+
+.header h1{
+    margin: 0 0 10px 0;
+  
+}
+
+.header select{
+    font-size: 16px;
+}
+
+.slideshow {
+    flex: 1400px;
+    background-image: url("https://i.redd.it/ak3cr221fpj41.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
